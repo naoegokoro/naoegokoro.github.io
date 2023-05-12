@@ -45,13 +45,17 @@ body {
 }
 
 .collapsible {
-    background: #e0e0e0;
-    border-radius: 10px;
-    padding: 10px;
-    text-align:left;
-    border: none;
+    background: #5a4a63;
+    font-family: 'Poppins';
+    font-size: 90%;
+    color: white;
+    text-shadow: 0 0 10px black, 1px 1px 3px black;
+    position: relative;
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-align: left;
+    border: 1px solid black;
     width: 100%;
-    justify-items: start;
     font-weight: 700;
     margin: 2px 0;
 }
@@ -59,10 +63,11 @@ body {
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 10px;
-  float: right;
-  margin-left: 5px;
+  right: 15px;
+  text-shadow: none;
+  top: 11.5px;
+  position: absolute;
   filter:brightness(0);
-  transform:translateY(1.5px)
 }
 
 .active:after {
@@ -75,7 +80,7 @@ body {
   transition: max-height 0.2s ease-out;
   background: #00000033;
   margin-left: 0!important;
-  color: #e2faff;
+  color: #f0f2ff;
   backdrop-filter: blur(2px);
   border-radius: 15px;
   padding-left: 20px;

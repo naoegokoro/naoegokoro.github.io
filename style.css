@@ -67,7 +67,7 @@ body {
   text-shadow: none;
   top: 11.5px;
   position: absolute;
-  filter:brightness(0);
+  filter:brightness(0) invert(1);
 }
 
 .active:after {

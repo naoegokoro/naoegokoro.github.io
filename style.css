@@ -34,7 +34,7 @@ body {
 }
 
 .inner {
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px black, 0 0 20px black, 1px 1px 3px black, 0 0 3px black;
     width: 600px;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://lh3.googleusercontent.com/drive-viewer/AFGJ81o41trA_r9AhSd-_UBmaq-FvUv6dSpQN1ZZ-uaXXBZxGKQwKGh608Vfd-cVdiEWm1l8E2S4H3hYB8rLhqq-ZCS38dDYqA=w1920-h902) 100%;
     background-size: 100%;
@@ -73,11 +73,10 @@ body {
   max-height:0;
   overflow:hidden;
   transition: max-height 0.2s ease-out;
-  background: #0000003d;
+  background: #00000033;
   margin-left: 0!important;
   color: #e2faff;
   backdrop-filter: blur(2px);
   border-radius: 15px;
   padding-left: 20px;
-  margin-bottom: 10px;
 }

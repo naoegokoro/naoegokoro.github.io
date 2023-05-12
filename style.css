@@ -1,3 +1,14 @@
+@media only screen and (max-device-width:540px) {
+.container {
+    margin:20px;
+}
+.inner {
+    background-repeat: no-repeat!important;
+    background-size: auto 100%!important;
+    background-position: 50%!important;
+}
+}
+
 a {
     color: #f5fdff;
     font-weight: bold;
@@ -23,6 +34,7 @@ body {
 }
 
 .inner {
+    text-shadow: 0 0 10px black;
     width: 600px;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://lh3.googleusercontent.com/drive-viewer/AFGJ81o41trA_r9AhSd-_UBmaq-FvUv6dSpQN1ZZ-uaXXBZxGKQwKGh608Vfd-cVdiEWm1l8E2S4H3hYB8rLhqq-ZCS38dDYqA=w1920-h902) 100%;
     background-size: 100%;
